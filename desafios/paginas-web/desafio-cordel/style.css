@@ -1,0 +1,83 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;  
+}
+
+:root{
+    --font1 : verdana, Geneva, Tahoma, sans-serif;
+    --font2 : 'Passion One', cursive;
+    --font3 : 'Sriracha', cursive;
+}
+html, body{
+    font-family: var(--font1);
+}
+
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 4vh;
+}
+
+header > h1{
+    padding-top: 5vh;
+    font-variant: small-caps;
+    font-family: var(--font2);
+}
+header > p{
+    padding-bottom: 5vh;
+}
+
+header a , footer a {
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+header a:hover, footer a:hover{
+    text-decoration: underline;
+}
+
+main > article > section{
+    height: 100vh;
+    line-height: 12vh;
+    padding: auto;
+    font-size: 4.5vh;
+    margin-top: 15vh;
+    margin-bottom: 10vh;
+    font-family: var(--font3);
+}
+
+main > article > section.imagem{
+    color: white;
+    box-shadow: inset 6px 6px 15px 0px rgba(0, 0, 0, 0.534);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+main > article > section.imagem > p{
+    background-color: rgba(0, 0, 0, 0.521);
+    display: inline-block;
+    padding: 5px;
+    text-shadow: 2px 2px 2px black;
+    margin: 5vh;
+}
+main > article > section#img1{
+    background-image: url('arquivos/imagens/background001.jpg');
+    background-position: right center;
+}
+main > article > section#img2{
+    background-image: url('arquivos/imagens/background002.jpg');
+}
+
+footer{ 
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}

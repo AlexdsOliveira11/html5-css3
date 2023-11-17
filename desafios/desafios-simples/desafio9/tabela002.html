@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        table{
+            border: 1px solid black;
+            border-collapse: collapse;
+            width: 250px;
+            height: 125px;
+        }
+        tr > th{
+            border: 1px solid black;
+        }
+        caption{
+            border: 3px solid black ;
+            background-color: black;
+            color: white;
+            font-size: 1.5em;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>Mais uma tabela sem sentido</caption>
+        <tr>
+            <th colspan="4">A</th>
+            <th rowspan="4">4</th>
+        </tr>
+        <tr>
+            <th rowspan="4">C</th>
+            <th>D</th>
+            <th>E</th> 
+            <th>F</th>
+        </tr>
+        <tr>
+            <th>G</th>
+            <th>H</th>
+            <th>I</th>
+        </tr>
+        <tr>
+            <th>J</th>
+            <th>L</th>
+            <th>M</th>
+        </tr>
+        <tr>
+            <th colspan="4">N</th>
+        </tr>
+    </table>
+    
+</body>
+</html>
